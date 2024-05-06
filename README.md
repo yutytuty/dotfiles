@@ -1,4 +1,4 @@
-# YotamVim
+# Dotfiles
 
-totally not LazyVim with a custom theme and font...
+Because I delete dotfiles a lot
 
