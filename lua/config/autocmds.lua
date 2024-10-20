@@ -1,3 +1,10 @@
 -- Autocmds are automatically loaded on the VeryLazy event
 -- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
 -- Add any additional autocmds here
+-- Check for a project-specific .nvimrc.lua or init.lua and load it
+-- local project_config = vim.fn.getcwd() .. "/.nvimrc.lua"
+-- if vim.fn.filereadable(project_config) == 1 then
+--   dofile(project_config)
+-- elseif vim.fn.filereadable(vim.fn.getcwd() .. "/init.lua") == 1 then
+--   dofile(vim.fn.getcwd() .. "/init.lua")
+-- end

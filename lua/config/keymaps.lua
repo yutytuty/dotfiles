@@ -6,3 +6,7 @@ local lazyterm = function()
 end
 vim.keymap.set("n", "<C-n>", lazyterm, { desc = "Terminal (Root Dir)" })
 vim.keymap.set("t", "<C-n>", "<cmd>close<cr>", { desc = "Hide Terminal" })
+
+-- 
+vim.keymap.set("n", "<leader>ae", "<cmd>Copilot enable<cr>", { desc = "Enable Copilot" })
+vim.keymap.set("n", "<leader>af", "<cmd>Copilot disable<cr>", { desc = "Disable Copilot" })
